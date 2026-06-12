@@ -5,6 +5,7 @@ import { IoCartOutline } from 'react-icons/io5'
 import { FcLike } from 'react-icons/fc'
 import { FiSearch } from 'react-icons/fi'
 import { FaRegUser } from 'react-icons/fa'
+// const [openCart,setOpenCart] = useState(false);
 import Home from '../home/Home'
 const Header = () => {
   return (

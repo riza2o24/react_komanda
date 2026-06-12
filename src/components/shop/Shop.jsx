@@ -11,6 +11,7 @@ import icon7 from "../../assets/icon7.png"
 import icon8 from "../../assets/icon8.png"
 import icon9 from "../../assets/icon9.png"
 import { useEffect, useState } from "react"
+import { Link } from "react-router-dom";
 import axios from "axios"
 import Footer from "../footer/Footer"
 import { FaHeart, FaShareAlt } from "react-icons/fa"
@@ -78,7 +79,9 @@ function Shop() {
 
             <div className="products__overlay w-[100%] absolute bg-[#3a3a3a50] z-1 h-[100%] mt-[-432px] ml-[-15px] flex justify-center items-center hidden">
               <div className="w-[100%]">
-                <button className="px-[52px] py-[12px] bg-[#fff] text-[#B88E2F] text-[16px] font-[600] flex justify-center m-auto mb-[25px]">Add to cart</button>
+             <Link to={`/single/${item.id}`}>
+                        <button className="px-[52px] py-[12px] bg-[#fff] text-[#B88E2F] text-[16px] font-[600] flex justify-center m-auto mb-[25px]">Add to cart</button>
+                      </Link>
 
               <div className="flex items-center justify-between px-[20px]">
                 <span className="flex items-center text-[#fff] gap-[2px] ">
