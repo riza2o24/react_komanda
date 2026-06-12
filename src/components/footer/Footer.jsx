@@ -1,8 +1,9 @@
 
 function Footer() {
   return (
-    <div className="w-[1440px]  pt-[50px] pb-[50px]  px-[100px] bg-[#ffffff] h-[505px] m-auto">
-      <div className="flex  gap-[200px]">
+    <div className="w-[1440px]  pt-[50px] pb-[50px]  bg-[#ffffff] h-[505px] m-auto">
+      <div className="w-[100%]  h-[2px] bg-[#D9D9D9] mb-[35px]"></div>
+      <div className="flex  gap-[200px] px-[100px]">
         {/* 1 */}
         <ul>
             <li className="font-[700] text-[24px] text-[#000000] mb-[50px]">Funiro.</li>
@@ -42,9 +43,9 @@ function Footer() {
         </ul>
       </div>
 
-      <div className="w-[100%] px-[100] h-[2px] bg-[#D9D9D9] mb-[35px]"></div>
+      <div className="w-[100%]  h-[2px] bg-[#D9D9D9] mb-[35px]"></div>
 
-      <p className="font-[500]  text-[16px] text-[#000000]" >2023 furino. All rights reverved</p>
+      <p className="font-[500] px-[100px]   text-[16px] text-[#000000]" >2023 furino. All rights reverved</p>
     </div>
   )
 }

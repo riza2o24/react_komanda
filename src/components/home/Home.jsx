@@ -8,7 +8,7 @@ import { MdCompareArrows } from "react-icons/md"
 import { useEffect, useState } from "react"
 import axios from "axios"
 import Products from "../../assets/Products.png"
-
+import Images from "../../assets/Images.png"
 function Home() {
   const [card, setCard] = useState([])
 
@@ -124,6 +124,16 @@ function Home() {
               </div>
 
               <img src={Products} alt="Products" />
+            </div>
+
+            <div className="w-[1440px]  m-auto mt-[100px]">
+               <div className="w-[100%]">
+                <p className="text-center  text-[#000000] text-[20px] font-[400]">Share your setup with</p>
+                  <h2 className="text-center  text-[#000000] text-[32px] font-[700]">#FuniroFurniture</h2>
+                  
+                </div>
+
+                <img src={Images} alt="Images" />
             </div>
       <Footer/>
     </div>
