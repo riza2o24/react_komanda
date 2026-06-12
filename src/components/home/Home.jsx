@@ -89,7 +89,7 @@ function Home() {
       
                       <span className="flex items-center text-[#fff] gap-[2px] ">
                         <MdCompareArrows  color="#fff"/>
-                        Compare
+                        Comparedwdwdwd
                       </span>
       
                       <span className="flex items-center text-[#fff] gap-[2px] ">
