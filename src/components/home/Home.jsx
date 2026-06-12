@@ -110,6 +110,19 @@ function Home() {
             <div className="w-[1440px] flex items-center justify-center m-auto  mt-[50px]">
               <button className="px-[70px] py-[12px] border-1 border-[#B88E2F] text-[#B88E2F] font-[600] text-[16px] ">Show More</button>
             </div>
+
+
+            <div className="w-[1440px] h-[670px] bg-[#FCF8F3]  px-[100px] flex items-center justify-between">
+              <div>
+                <h1 className="font-[700] w-[422px] mb-[8px] text-[#3A3A3A] text-[40px] ">50+ Beautiful rooms inspiration</h1>
+
+                <p className="w-[368px] font-[500] text-[16px] text-[#3A3A3A]">50+ Beautiful rooms inspiration Our designer already made a lot of beautiful prototipe of rooms that inspire you</p>
+
+                <button className="px-[36px] py-[12px] bg-[#B88E2F] font-[600] text-[16px] text-[#fff]"></button>
+              </div>
+
+
+            </div>
       <Footer/>
     </div>
   )
