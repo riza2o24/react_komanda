@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+
+.products__card:hover .products__overlay {
+  display: flex;
+}
+
+.baner{
+  background-image: url('./assets/banner.png');
+  background-repeat: no-repeat;
+  
+}
