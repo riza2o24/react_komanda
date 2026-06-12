@@ -9,6 +9,7 @@ import { useEffect, useState } from "react"
 import axios from "axios"
 import Products from "../../assets/Products.png"
 import Images from "../../assets/Images.png"
+import { Link } from "react-router-dom"
 function Home() {
   const [card, setCard] = useState([])
 
@@ -79,7 +80,9 @@ function Home() {
       
                   <div className="products__overlay w-[100%] absolute bg-[#3a3a3a50] z-1 h-[100%] mt-[-432px] ml-[-15px] flex justify-center items-center hidden">
                     <div className="w-[100%]">
-                      <button className="px-[52px] py-[12px] bg-[#fff] text-[#B88E2F] text-[16px] font-[600] flex justify-center m-auto mb-[25px]">Add to cart</button>
+                      <Link to={`/single/${item.id}`}>
+                        <button className="px-[52px] py-[12px] bg-[#fff] text-[#B88E2F] text-[16px] font-[600] flex justify-center m-auto mb-[25px]">Add to cart</button>
+                      </Link>
       
                     <div className="flex items-center justify-between px-[20px]">
                       <span className="flex items-center text-[#fff] gap-[2px] ">

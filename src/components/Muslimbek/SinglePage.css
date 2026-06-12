@@ -1,0 +1,38 @@
+/* Styling settings for the dynamic detail views */
+.single-product {
+  display: flex;
+  gap: 105px;
+  padding: 40px 100px;
+}
+
+.left {
+  display: flex;
+  gap: 30px;
+}
+
+.thumbnails {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.thumbnail {
+  width: 76px;
+  height: 80px;
+  background: #f9f1e7;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.main-image {
+  width: 481px;
+  height: 500px;
+  background: #f9f1e7;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Form inputs styling */
+input:focus, button:focus {
+  outline: none;
+}
