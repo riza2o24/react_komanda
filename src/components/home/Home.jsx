@@ -7,6 +7,8 @@ import { FaHeart, FaShareAlt } from "react-icons/fa"
 import { MdCompareArrows } from "react-icons/md"
 import { useEffect, useState } from "react"
 import axios from "axios"
+import Products from "../../assets/Products.png"
+
 function Home() {
   const [card, setCard] = useState([])
 
@@ -112,16 +114,16 @@ function Home() {
             </div>
 
 
-            <div className="w-[1440px] h-[670px] bg-[#FCF8F3]  px-[100px] flex items-center justify-between">
+            <div className="w-[1440px] h-[670px] bg-[#FCF8F3]  pl-[100px] flex items-center justify-between m-auto mt-[100px] ">
               <div>
                 <h1 className="font-[700] w-[422px] mb-[8px] text-[#3A3A3A] text-[40px] ">50+ Beautiful rooms inspiration</h1>
 
                 <p className="w-[368px] font-[500] text-[16px] text-[#3A3A3A]">50+ Beautiful rooms inspiration Our designer already made a lot of beautiful prototipe of rooms that inspire you</p>
 
-                <button className="px-[36px] py-[12px] bg-[#B88E2F] font-[600] text-[16px] text-[#fff]"></button>
+                <button className="px-[36px] py-[12px] bg-[#B88E2F] font-[600] text-[16px] text-[#fff]">Explore More</button>
               </div>
 
-
+              <img src={Products} alt="Products" />
             </div>
       <Footer/>
     </div>
