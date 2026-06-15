@@ -2,10 +2,10 @@ import Footer from "../footer/Footer"
 import Header from "../header/Header"
 
 
-import sofa1 from "../assets/sofa1.png";
-import sofa2 from "../assets/sofa2.png";
-import rr from "../assets/rr.png";
-import bac from "../assets/bac.png";
+import sofa1 from "../../assets/sofa1.png";
+import sofa2 from "../../assets/sofa2.png";
+import rr from "../../assets/rr.png";
+import bac from "../../assets/bac.png";
 
 const Compare = () => {
   return (
@@ -13,12 +13,12 @@ const Compare = () => {
      <div className="font-poppins w-full bg-white">
       <Header/>
       {/* 1. Banner */}
-      <section className="bg-cover bg-center text-center py-20 mb-14" >
-        <img src={bac} alt="rasm" />
-        <h1 className="text-4xl font-semibold text-black">
+      <section className="bg-cover m-auto w-[1440px] relative bg-center text-center py-20 mb-30" >
+        <img src={bac} className="flex absolute mt-[-80px]" alt="rasm" />
+        <h1 className="text-4xl font-semibold z-1 text-black">
           Product Comparison
         </h1>
-        <p className="text-gray-500 mt-2 font-medium">
+        <p className="text-gray-500 mt-2 font-medium z-1">
           Home &gt; <span className="text-black">Comparison</span>
         </p>
       </section>
@@ -83,9 +83,7 @@ const Compare = () => {
           <h3 className="text-xl font-semibold mb-4 text-black">
             Add A Product
           </h3>
-          <select className="bg-[#B88E2F] text-white px-4 py-3 rounded-md w-full font-medium appearance-none cursor-pointer outline-none text-sm text-center">
-            <button>Choose a Product</button>
-          </select>
+            <button className="bg-[#B88E2F] text-white px-4 py-3 rounded-md w-full font-medium appearance-none cursor-pointer outline-none text-sm text-center">Choose a Product</button>
         </div>
       </section>
 
@@ -276,8 +274,8 @@ const Compare = () => {
       </div>
 
       {/* 4. Footer Xizmatlar Rasmi */}
-      <section className="bg-[#FAF3EA] py-14">
-        <div className="max-w-7xl mx-auto px-6">
+      <section className="bg-[#FAF3EA] w-[1440px] m-auto py-14">
+        <div className="mx-auto px-6">
           <img
             src={rr}
             alt="Features Banner"
