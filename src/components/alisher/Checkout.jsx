@@ -1,35 +1,14 @@
 import React, { useState } from 'react';
+import Header from '../header/Header';
 
-const Header = () => (
-  <header className="bg-white shadow-sm">
-    <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-      <div className="flex items-center gap-2">
-        <svg className="w-7 h-7 text-yellow-700" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M12 2L2 7v10l10 5 10-5V7L12 2zm0 2.3L19.5 8 12 11.7 4.5 8 12 4.3zM4 9.5l7 3.5v7l-7-3.5v-7zm9 10.5v-7l7-3.5v7l-7 3.5z"/>
-        </svg>
-        <span className="text-2xl font-bold text-gray-800">Furniro</span>
-      </div>
-      <nav className="hidden md:flex items-center gap-8 text-sm">
-        <a href="#" className="text-gray-700 hover:text-yellow-700">Home</a>
-        <a href="#" className="text-gray-700 hover:text-yellow-700">Shop</a>
-        <a href="#" className="text-gray-700 hover:text-yellow-700">About</a>
-        <a href="#" className="text-gray-700 hover:text-yellow-700">Contact</a>
-      </nav>
-      <div className="flex items-center gap-5 text-gray-700">
-        <a href="#" className="hover:text-yellow-700"><i className="far fa-user"></i></a>
-        <a href="#" className="hover:text-yellow-700"><i className="fas fa-search"></i></a>
-        <a href="#" className="hover:text-yellow-700"><i className="far fa-heart"></i></a>
-        <a href="#" className="hover:text-yellow-700"><i className="fas fa-shopping-cart"></i></a>
-      </div>
-    </div>
-  </header>
-);
 
 const Hero = () => (
   <section className="py-16" style={{
     background: 'linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url(https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=1200)',
     backgroundSize: 'cover',
-    backgroundPosition: 'center'
+    backgroundPosition: 'center',
+    width:'1440px',
+    margin: "auto"
   }}>
     <div className="max-w-7xl mx-auto px-6 text-center">
       <h1 className="text-3xl font-bold text-gray-800 mb-2">Cart</h1>
@@ -182,7 +161,7 @@ const OrderSummary = ({ onPlaceOrder }) => {
 };
 
 const Features = () => (
-  <section className="bg-amber-50 py-10">
+  <section className="bg-amber-50 py-10 w-[1440px] m-[auto]">
     <div className="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-6">
       <div className="flex items-center gap-3">
         <i className="fas fa-trophy text-2xl text-gray-800"></i>
@@ -217,7 +196,7 @@ const Features = () => (
 );
 
 const Footer = () => (
-  <footer className="bg-white border-t border-gray-100 py-12">
+  <footer className="bg-white border-t w-[1440px] m-[auto] border-gray-100 py-12">
     <div className="max-w-7xl mx-auto px-6">
       <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
         <div>
@@ -267,7 +246,7 @@ const Checkout = () => {
 
   return (
     <div className="bg-white min-h-screen">
-      <Header />
+      <Header/>
       <Hero />
       <section className="max-w-6xl mx-auto px-6 py-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">

@@ -4,6 +4,7 @@ import Shop from "./components/shop/Shop"
 import SinglePage from "./components/Muslimbek/SinglePage"
 import { CartProvider } from "./context/CartContext" // <--- ADDED THIS IMPORT
 import Compare from "./components/Shohruhbek/Compare"
+import Checkout from "./components/alisher/Checkout"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route element={<Home/>} path="/"/>
           <Route element={<SinglePage/>} path="/single/:id"/>
           <Route element={<Compare/>} path="/compare"/>
+          <Route element={<Checkout/>} path='/alish'/>
         </Routes>
       </CartProvider>
     </div>
