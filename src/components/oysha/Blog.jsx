@@ -1,7 +1,10 @@
 import { Search } from "lucide-react";
 import Header from "../header/Header";
 import Footer from "../footer/Footer";
-
+import icon6 from "../../assets/icon6.png"
+import icon7 from "../../assets/icon7.png"
+import icon8 from "../../assets/icon8.png"
+import icon9 from "../../assets/icon9.png"
 const posts = [
   {
     id: 1,
@@ -162,6 +165,14 @@ export default function Blog() {
         </button>
       </div>
     </div>
+    <div className="w-[1440px]   px-[55px] bg-[#FAF3EA] h-[270px] flex items-center justify-between m-auto" >
+            
+            <img src={icon6} alt="icon" />
+            <img src={icon7} alt="icon" />
+            <img src={icon8} alt="icon" />
+            <img src={icon9} alt="icon" />
+    </div>
+
         <Footer/>
     </div>
   );
