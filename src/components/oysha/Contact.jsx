@@ -1,6 +1,10 @@
 import { FaMapMarkerAlt, FaPhoneAlt, FaClock } from "react-icons/fa";
 import Header from "../header/Header";
 import Footer from "../footer/Footer";
+import icon6 from "../../assets/icon6.png"
+import icon7 from "../../assets/icon7.png"
+import icon8 from "../../assets/icon8.png"
+import icon9 from "../../assets/icon9.png"
 
 export default function Contact() {
   return (
@@ -8,7 +12,6 @@ export default function Contact() {
         <Header/>
 
     <div className="w-[1440px] mx-auto bg-white">
-      {/* Hero */}
       <div
         className="h-[250px] flex flex-col justify-center items-center bg-cover bg-center"
         style={{
@@ -20,14 +23,8 @@ export default function Contact() {
         <p className="text-sm mt-2">Home &gt; Contact</p>
       </div>
 
-      {/* Avatar */}
-      <div className="relative">
-        <div className="absolute -top-8 left-[320px] w-16 h-16 rounded-full bg-blue-600 text-white flex items-center justify-center text-2xl shadow-lg">
-          M
-        </div>
-      </div>
+      
 
-      {/* Content */}
       <div className="py-20">
         <h2 className="text-4xl font-bold text-center">
           Get In Touch With Us
@@ -39,7 +36,7 @@ export default function Contact() {
         </p>
 
         <div className="flex justify-center gap-32 mt-16">
-          {/* Left */}
+
           <div className="space-y-10 w-[250px]">
             <div>
               <div className="flex items-center gap-3">
@@ -80,7 +77,7 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* Right Form */}
+
           <form className="w-[500px] space-y-6">
             <div>
               <label className="block mb-2 font-medium">Your name</label>
@@ -125,6 +122,14 @@ export default function Contact() {
         </div>
       </div>
     </div>
+
+    <div className="w-[1440px]   px-[55px] bg-[#FAF3EA] h-[270px] flex items-center justify-between m-auto" >
+            
+            <img src={icon6} alt="icon" />
+            <img src={icon7} alt="icon" />
+            <img src={icon8} alt="icon" />
+            <img src={icon9} alt="icon" />
+          </div>
 
     <Footer/>
     </div>

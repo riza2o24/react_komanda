@@ -5,6 +5,8 @@ import SinglePage from "./components/Muslimbek/SinglePage"
 import { CartProvider } from "./context/CartContext" // <--- ADDED THIS IMPORT
 import Compare from "./components/Shohruhbek/Compare"
 import Checkout from "./components/alisher/Checkout"
+import Contact from "./components/oysha/Contact"
+import Blog from "./components/oysha/Blog"
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
           <Route element={<Compare/>} path="/compare"/>
           <Route element={<Checkout/>} path='/alish'/>
           <Route element={<Contact/>}  path='/contact' />
+          <Route element={<Blog/>}  path='/about' />
         </Routes>
       </CartProvider>
     </div>

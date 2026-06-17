@@ -16,7 +16,7 @@ const Header = () => {
             <ul className='flex items-center gap-[75px]'>
                 <Link to={"/"}>Home</Link>
                 <Link to={"/shop"}>Shop</Link>
-                <Link>About</Link>
+                <Link to={"/about"}>About</Link>
                 <Link to={'/contact'}>Contact</Link>
             </ul>
         </nav>
