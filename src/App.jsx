@@ -17,6 +17,7 @@ function App() {
           <Route element={<SinglePage/>} path="/single/:id"/>
           <Route element={<Compare/>} path="/compare"/>
           <Route element={<Checkout/>} path='/alish'/>
+          <Route element={<Contact/>}  path='/contact' />
         </Routes>
       </CartProvider>
     </div>

@@ -6,6 +6,7 @@ import sofa1 from "../../assets/sofa1.png";
 import sofa2 from "../../assets/sofa2.png";
 import rr from "../../assets/rr.png";
 import bac from "../../assets/bac.png";
+import { Link } from "react-router-dom";
 
 const Compare = () => {
   return (
@@ -83,7 +84,7 @@ const Compare = () => {
           <h3 className="text-xl font-semibold mb-4 text-black">
             Add A Product
           </h3>
-            <button className="bg-[#B88E2F] text-white px-4 py-3 rounded-md w-full font-medium appearance-none cursor-pointer outline-none text-sm text-center">Choose a Product</button>
+            <Link to={'/alish'}><button className="bg-[#B88E2F] text-white px-4 py-3 rounded-md w-full font-medium appearance-none cursor-pointer outline-none text-sm text-center">Choose a Product</button></Link>
         </div>
       </section>
 
