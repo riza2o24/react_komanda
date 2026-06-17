@@ -167,10 +167,10 @@ export default function Blog() {
     </div>
     <div className="w-[1440px]   px-[55px] bg-[#FAF3EA] h-[270px] flex items-center justify-between m-auto" >
             
-            <img src={icon6} alt="icon" />
-            <img src={icon7} alt="icon" />
-            <img src={icon8} alt="icon" />
-            <img src={icon9} alt="icon" />
+            <img src={icon6} alt="icons" />
+            <img src={icon7} alt="icons" />
+            <img src={icon8} alt="icons" />
+            <img src={icon9} alt="icons" />
     </div>
 
         <Footer/>
