@@ -1,7 +1,6 @@
 import { useCart } from "../../context/CartContext";
 import { IoBagHandleOutline, IoCloseCircleOutline } from "react-icons/io5"; // Cleaned up icons here
 import "./SideBar.css";
-import { Link } from "lucide-react";
 
 const CartSidebar = ({ open, onClose }) => {
   const { cartItems, removeFromCart, getSubtotal } = useCart();
@@ -63,7 +62,7 @@ const CartSidebar = ({ open, onClose }) => {
           <div className="cart-buttons">
             <button>Cart</button>
             <button>Checkout</button>
-            <Link to={'/compare'}><button>Comparison</button></Link>
+            <button>Comparison</button>
           </div>
         </div>
       </div>
